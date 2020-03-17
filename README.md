@@ -38,5 +38,6 @@ We build a keras model using lstm . The basic architecture of the model is shown
 * We will initialize the embedding layer with 50 dimensional Glove Word Vectors
 * Input of the embedding layer is a matrix of dimension (batch_size , max input length) while output is an array of shape
 (batch_size , max input len , dimension of word vectors).
+* The below image shows an example input passed through the embedding layer and its output
 
 ![](emblayer.png)
